@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <H1>TIC TAC TOE</H1>
+    <hr>
+    <div class="scoreboard">
+      <div id="scoreBoard1">0</div>
+      <span>:</span>
+    <div id="scoreBoard2">0</div>
+    </div>
+    <div class="display" id="display">WELCOME</div>
+    <table>
+      <tr>
+        <td class="cell" id="A" onclick="showLetter(event)"></td>
+        <td class="cell" id="B" onclick="showLetter(event)"></td>
+        <td class="cell" id="C" onclick="showLetter(event)"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="D" onclick="showLetter(event)"></td>
+        <td class="cell" id="E" onclick="showLetter(event)"></td>
+        <td class="cell" id="F" onclick="showLetter(event)"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="G" onclick="showLetter(event)"></td>
+        <td class="cell" id="H" onclick="showLetter(event)"></td>
+        <td class="cell" id="I" onclick="showLetter(event)"></td>
+      </tr>
+    </table>
+
+    <div class="endgame">
+        <div class="text"></div>
+    </div>
+    <button onclick="startGame()">NEW GAME</button>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
